@@ -29,6 +29,7 @@ function Header() {
 
   function mobileMenuToggler() {
     setMobileMenu(!mobileMenu);
+    console.log("mobile menu changed")
   }
 
   return (
